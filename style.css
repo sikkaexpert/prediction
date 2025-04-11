@@ -16,7 +16,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url('/bg.jpg'); /* Update with your path */
+    background-image: url('bg.jpg'); /* Update with your path */
     background-position: center;
     background-size: cover;
     filter: blur(8px);
