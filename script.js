@@ -14,6 +14,6 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   document.getElementById('telegramBtn').addEventListener('click', () => {
-    window.location.href = "https://t.me/your_channel_name";
+    window.location.href = "https://t.me/+pVhcGSVA7l43ZDk1";
   });
 });
