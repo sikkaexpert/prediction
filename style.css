@@ -1,0 +1,97 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/bg.jpg'); /* Update with your path */
+    background-position: center;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #29b6f6;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0288d1;
+  }
+  
+
+
+.img{
+    height: 200px;
+    width: 200px;
+    background-image: url('WhatsApp\ Image\ 2025-04-11\ at\ 21.42.17_bbde10eb.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.maintitle{
+    margin: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(0, 190, 0);
+    padding: 2px 10px ;
+    border-radius: 10px;
+}
+
+.banners{
+    display: flex;
+    flex-direction: column;
+}
+
+.report{
+    background-color: red;
+    padding: 5px 10px;
+    font-weight: bold;
+}
